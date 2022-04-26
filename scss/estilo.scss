@@ -94,6 +94,17 @@ h3 {
         border: solid 4px black;
         border-radius: 0.5rem;
         width: 300px;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
     }
 }
 
@@ -129,6 +140,9 @@ h3 {
     position: fixed;
     bottom: 0;
     right: 40px;
+    &:hover {
+        background-color: rgb(144, 11, 253);
+    }
 }
 
 //productos:
@@ -148,6 +162,10 @@ h3 {
     align-items: center;
     background-image: url(../Img/fondo3.jpg);
 }
+
+tr:hover {
+    background-color: rgb(144, 11, 253);
+  }
 
 .tabla1 {  
     margin-right: 0.6rem;
@@ -218,6 +236,17 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    animation-duration: 8s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     .imagenDelivery {
         border: solid 0.3rem black;
         border-radius: 0.4rem;
