@@ -1,0 +1,132 @@
+@import "variables";
+@import "colores";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /*font-size: 62.5%; /* 1rem = 10px */
+  }
+
+
+a {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+body {
+    background-image:url(../Img/fondo7.jpg);
+}
+
+header {
+    color: rgb(42, 137, 252);
+    background-color: $contenedor-negro;
+    border: $borde-solid-05 rgb(42, 137, 252);
+    border-radius: $borde-radius-1;
+    display: flex;
+    margin-bottom: 1rem;
+   
+    .logo{
+        margin-bottom: 0.3rem;
+        display: flex;
+        
+        
+    }
+    .tituloHeader {
+        font-size: 4rem;
+        padding-left: 1;
+        text-align:center;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    .menu{
+        text-align: center;
+        li {
+            font-size: 1rem;
+            background-color:$contenedor-celeste;
+            border: solid 0.2rem black;
+            display: inline;
+            text-align: center;
+            &:hover {
+                background-color: $contenedor-celeste;
+            }
+        }
+    }
+}
+
+h2 {
+    color: rgb(42, 137, 252);
+    margin-bottom: $separacion-margin-abajo;
+    background-color: $contenedor-negro;
+    font-size: 2.5rem;
+    border: $borde-solid-05 rgb(42, 137, 252);
+    border-radius:$borde-radius-1;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    border: $borde-solid-05 black;
+    border-radius: $borde-radius-1;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    margin-bottom: $separacion-margin-abajo;
+}
+
+.card-en-index {
+    font-size: 2rem;
+    color: lightblue;
+    text-align: center;
+    border: solid 4px black;
+    background-image: url(../Img/fondo3.jpg);
+    max-width: 100%;
+    padding: 20px;
+    .img-card-index {
+        border: solid 4px black;
+        border-radius: 0.5rem;
+        width: 300px;
+    }
+}
+
+.video-index {
+    background-image: url(../Img/fondo3.jpg);
+    border: solid 0.3rem black;
+    margin-top: $separacion-margin-arriba;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    .parrafo-de-video {
+        font-size: 1.3rem;
+        border: 0.3rem solid black;
+        border-radius: $borde-radius-1 ;
+        background-color:$contenedor-celeste;
+        color: black;
+        text-align: center;
+        margin-top: $separacion-margin-arriba;
+        margin-bottom: 2rem;
+    }    
+}
+
+.footer {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+
+#enlace-a-productos {
+    font-size: 1.5rem;
+    color: red;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+}
