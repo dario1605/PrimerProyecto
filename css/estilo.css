@@ -1,56 +1,67 @@
 * {
   margin: 0;
   padding: 0;
-  /*font-size: 62.5%; /* 1rem = 10px */ }
+  /*font-size: 62.5%; /* 1rem = 10px */
+}
 
 a {
   color: black;
   font-size: 2rem;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 body {
-  background-image: url(../Img/fondo7.jpg); }
+  background-image: url(../Img/fondo7.jpg);
+}
 
 header {
-  color: #2a89fc;
+  color: rgb(42, 137, 252);
   background-color: black;
-  border: solid 0.5rem #2a89fc;
+  border: solid 0.5rem rgb(42, 137, 252);
   border-radius: 1rem;
   display: flex;
-  margin-bottom: 1rem; }
-  header .logo {
-    margin-bottom: 0.3rem;
-    display: flex; }
-  header .tituloHeader {
-    font-size: 4rem;
-    padding-left: 1;
-    text-align: center;
-    display: flex;
-    justify-items: center;
-    align-items: center; }
+  margin-bottom: 1rem;
+}
+header .logo {
+  margin-bottom: 0.3rem;
+  display: flex;
+}
+header .tituloHeader {
+  font-size: 4rem;
+  padding-left: 1;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
 
 nav {
   display: flex;
-  justify-content: center; }
-  nav .menu {
-    text-align: center; }
-    nav .menu li {
-      font-size: 1rem;
-      background-color: #2a89fc;
-      border: solid 0.2rem black;
-      display: inline;
-      text-align: center; }
-      nav .menu li:hover {
-        background-color: #2a89fc; }
+  justify-content: center;
+}
+nav .menu {
+  text-align: center;
+}
+nav .menu li {
+  font-size: 1rem;
+  background-color: rgb(42, 137, 252);
+  border: solid 0.2rem black;
+  display: inline;
+  text-align: center;
+}
+nav .menu li:hover {
+  background-color: rgb(42, 137, 252);
+}
 
 h2 {
-  color: #2a89fc;
+  color: rgb(42, 137, 252);
   margin-bottom: 2.5rem;
   background-color: black;
   font-size: 2.5rem;
-  border: solid 0.5rem #2a89fc;
+  border: solid 0.5rem rgb(42, 137, 252);
   border-radius: 1rem;
-  text-align: center; }
+  text-align: center;
+}
 
 h3 {
   display: flex;
@@ -60,7 +71,8 @@ h3 {
   text-align: center;
   color: black;
   font-size: 2.5rem;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+}
 
 .card-en-index {
   font-size: 2rem;
@@ -69,20 +81,24 @@ h3 {
   border: solid 4px black;
   background-image: url(../Img/fondo3.jpg);
   max-width: 100%;
-  padding: 20px; }
-  .card-en-index .img-card-index {
-    border: solid 4px black;
-    border-radius: 0.5rem;
-    width: 300px;
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite; }
-
+  padding: 20px;
+}
+.card-en-index .img-card-index {
+  border: solid 4px black;
+  border-radius: 0.5rem;
+  width: 300px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
 @keyframes aparecer {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .video-index {
   background-image: url(../Img/fondo3.jpg);
@@ -91,84 +107,108 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .video-index .parrafo-de-video {
-    font-size: 1.3rem;
-    border: 0.3rem solid black;
-    border-radius: 1rem;
-    background-color: #2a89fc;
-    color: black;
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
+  align-items: center;
+}
+.video-index .parrafo-de-video {
+  font-size: 1.3rem;
+  border: 0.3rem solid black;
+  border-radius: 1rem;
+  background-color: rgb(42, 137, 252);
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 .footer {
   font-size: 2rem;
   text-align: center;
-  color: black; }
+  color: black;
+}
 
 #enlace-a-productos {
   font-size: 1.5rem;
   color: red;
   position: fixed;
   bottom: 0;
-  right: 40px; }
-  #enlace-a-productos:hover {
-    background-color: #900bfd; }
+  right: 40px;
+}
+#enlace-a-productos:hover {
+  background-color: rgb(144, 11, 253);
+}
 
 .vaca {
   width: 80%;
   display: flex;
-  justify-content: end; }
+  justify-content: end;
+}
 
 .table {
-  border: solid 0.3rem #103b55;
+  border: solid 0.3rem rgb(16, 59, 85);
   border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../Img/fondo3.jpg); }
+  background-image: url(../Img/fondo3.jpg);
+}
 
 tr:hover {
-  background-color: #900bfd; }
+  background-color: rgb(144, 11, 253);
+}
 
 .tabla1 {
   margin-right: 0.6rem;
-  margin-bottom: 1.25rem; }
-  .tabla1 .colorRojo {
-    background-color: red; }
-  .tabla1 .colorAzul {
-    background-color: blue; }
-  .tabla1 .colorVerde {
-    background-color: green; }
+  margin-bottom: 1.25rem;
+}
+.tabla1 .colorRojo {
+  background-color: red;
+}
+.tabla1 .colorAzul {
+  background-color: blue;
+}
+.tabla1 .colorVerde {
+  background-color: green;
+}
 
 .tabla2 {
-  margin-bottom: 1.25rem; }
-  .tabla2 .colorRojo {
-    background-color: red; }
-  .tabla2 .colorAzul {
-    background-color: blue; }
-  .tabla2 .colorVerde {
-    background-color: green; }
+  margin-bottom: 1.25rem;
+}
+.tabla2 .colorRojo {
+  background-color: red;
+}
+.tabla2 .colorAzul {
+  background-color: blue;
+}
+.tabla2 .colorVerde {
+  background-color: green;
+}
 
 .tabla3 {
-  margin-right: 1rem; }
-  .tabla3 .colorRojo {
-    background-color: red; }
-  .tabla3 .colorAzul {
-    background-color: blue; }
-  .tabla3 .colorVerde {
-    background-color: green; }
+  margin-right: 1rem;
+}
+.tabla3 .colorRojo {
+  background-color: red;
+}
+.tabla3 .colorAzul {
+  background-color: blue;
+}
+.tabla3 .colorVerde {
+  background-color: green;
+}
 
 .tabla4 {
-  margin-left: 2.4rem; }
-  .tabla4 .colorRojo {
-    background-color: red; }
-  .tabla4 .colorAzul {
-    background-color: blue; }
-  .tabla4 .colorVerde {
-    background-color: green; }
+  margin-left: 2.4rem;
+}
+.tabla4 .colorRojo {
+  background-color: red;
+}
+.tabla4 .colorAzul {
+  background-color: blue;
+}
+.tabla4 .colorVerde {
+  background-color: green;
+}
 
 .parrafoServicios {
   text-align: center;
@@ -176,7 +216,8 @@ tr:hover {
   background-image: url(../Img/fondo3.jpg);
   margin: 5rem;
   border: solid 0.3rem black;
-  border-radius: 0.3rem; }
+  border-radius: 0.3rem;
+}
 
 .contenedorServicios {
   display: flex;
@@ -185,23 +226,28 @@ tr:hover {
   margin: 1rem;
   animation-duration: 8s;
   animation-name: aparecer;
-  animation-iteration-count: infinite; }
-
+  animation-iteration-count: infinite;
+}
 @keyframes aparecer {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
-  .contenedorServicios .imagenDelivery {
-    border: solid 0.3rem black;
-    border-radius: 0.4rem;
-    max-width: 20rem;
-    margin: 1rem; }
-  .contenedorServicios .formularioServicios {
-    background-image: url(../Img/fondo3.jpg);
-    border: solid 0.3rem black;
-    border-radius: 0.3rem;
-    padding: 1rem; }
+    opacity: 1;
+  }
+}
+.contenedorServicios .imagenDelivery {
+  border: solid 0.3rem black;
+  border-radius: 0.4rem;
+  max-width: 20rem;
+  margin: 1rem;
+}
+.contenedorServicios .formularioServicios {
+  background-image: url(../Img/fondo3.jpg);
+  border: solid 0.3rem black;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
 
 .contenedorMaps {
   text-align: center;
@@ -209,26 +255,31 @@ tr:hover {
   height: auto;
   border: solid 0.3rem black;
   border-radius: 0.3rem;
-  background-image: url(../Img/fondo3.jpg); }
+  background-image: url(../Img/fondo3.jpg);
+}
 
 .contenedorCortes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
-  .contenedorCortes article {
-    padding: 4rem;
-    margin: 1rem; }
+  justify-content: center;
+}
+.contenedorCortes article {
+  padding: 4rem;
+  margin: 1rem;
+}
 
 .enlace-a-productos2 {
-  background-color: #2a89fc;
+  background-color: rgb(42, 137, 252);
   font-size: 1.3;
   text-align: center;
-  color: #d23c3c;
+  color: rgb(210, 60, 60);
   margin-top: 1.9;
   border: solid 0.3rem black;
-  border-radius: 0.3rem; }
-  .enlace-a-productos2 .clickAqui {
-    color: #680a68; }
+  border-radius: 0.3rem;
+}
+.enlace-a-productos2 .clickAqui {
+  color: rgb(104, 10, 104);
+}
 
 .parrafoNosotros {
   display: flex;
@@ -237,7 +288,8 @@ tr:hover {
   font-size: 1rem;
   background-image: url(../Img/fondo3.jpg);
   border: solid 0.3rem black;
-  border-radius: 0.3rem; }
+  border-radius: 0.3rem;
+}
 
 .formularioNostros {
   text-align: center;
@@ -245,4 +297,7 @@ tr:hover {
   border: solid 0.3rem black;
   border-radius: 0.3rem;
   padding: 1rem;
-  margin: 1rem; }
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
