@@ -1,3 +1,35 @@
+/*extend seccion cortes*/
+.input, .inputMatambre, .inputCostilla, .inputFalda, .inputBocado, .inputAguja {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: solid 0.3rem black;
+}
+.input:hover, .inputMatambre:hover, .inputCostilla:hover, .inputFalda:hover, .inputBocado:hover, .inputAguja:hover {
+  background-color: violet;
+}
+
+.inputAguja {
+  background-color: rgb(42, 137, 252);
+}
+
+.inputBocado {
+  background-color: rgb(117, 172, 238);
+}
+
+.inputFalda {
+  background-color: rgb(117, 172, 238);
+}
+
+.inputCostilla {
+  background-color: rgb(42, 137, 252);
+}
+
+.inputMatambre {
+  background-color: rgb(117, 172, 238);
+}
+
+/*fin extend seccion cortes*/
 * {
   margin: 0;
   padding: 0;
@@ -120,6 +152,11 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.boxVideo {
+  width: 26rem;
+  height: 17rem;
+}
+
 .footer {
   font-size: 2rem;
   text-align: center;
@@ -137,6 +174,7 @@ h3 {
   background-color: rgb(144, 11, 253);
 }
 
+/*productos*/
 .vaca {
   width: 80%;
   display: flex;
@@ -147,8 +185,8 @@ h3 {
   border: solid 0.3rem rgb(16, 59, 85);
   border-radius: 1rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   background-image: url(../Img/fondo3.jpg);
 }
@@ -210,6 +248,7 @@ tr:hover {
   background-color: green;
 }
 
+/*servicios*/
 .parrafoServicios {
   text-align: center;
   font-size: 1.2rem;
@@ -222,6 +261,7 @@ tr:hover {
 .contenedorServicios {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin: 1rem;
   animation-duration: 8s;
@@ -258,10 +298,11 @@ tr:hover {
   background-image: url(../Img/fondo3.jpg);
 }
 
+/*cortes*/
 .contenedorCortes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .contenedorCortes article {
   padding: 4rem;
@@ -281,6 +322,7 @@ tr:hover {
   color: rgb(104, 10, 104);
 }
 
+/*nosotros*/
 .parrafoNosotros {
   display: flex;
   justify-content: center;

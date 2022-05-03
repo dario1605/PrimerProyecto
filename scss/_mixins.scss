@@ -1,0 +1,11 @@
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin sizeVideo ($width, $height) {
+    width: $width;
+    height: $height;
+}

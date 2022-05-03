@@ -1,0 +1,37 @@
+/*extend seccion cortes*/
+
+.input {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: solid 0.3rem black;
+    &:hover{
+        background-color: violet;
+    }
+}
+
+.inputAguja {
+    @extend .input;
+    background-color: rgb(42, 137, 252);
+}
+
+.inputBocado {
+    @extend .input;
+    background-color: rgb(117, 172, 238);
+}
+
+.inputFalda {
+    @extend .input;
+    background-color: rgb(117, 172, 238);
+}
+
+.inputCostilla {
+    @extend .input;
+    background-color: rgb(42, 137, 252);
+}
+
+.inputMatambre {
+    @extend .input;
+    background-color: rgb(117, 172, 238);
+}
+/*fin extend seccion cortes*/
